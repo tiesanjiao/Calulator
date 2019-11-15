@@ -5,6 +5,8 @@ import android.animation.ValueAnimator;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.ContentValues;
+import android.content.Context;
+import android.content.Intent;
 import android.content.res.ColorStateList;
 import android.content.res.Resources;
 import android.database.Cursor;
@@ -89,6 +91,11 @@ public class MyCalculator extends Activity implements View.OnClickListener {
     private MyAdapter mMyAdapter;
     private List<Button> buttons;
     private RelativeLayout mRelativeLayout_bb;
+
+    public static void start(Context context) {
+        Intent intent = new Intent(context, MyCalculator.class);
+        context.startActivity(intent);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
