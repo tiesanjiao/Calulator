@@ -10,8 +10,8 @@ android {
         versionCode 1
         versionName "1.0"
         buildConfigField 'String','APPID','"ceshiqianggeng777"'
-        // buildConfigField 'String','APPID','appidcsh5'
-        // buildConfigField 'String','APPID','other'
+        // buildConfigField 'String','APPID','"appidcsh5"'
+        // buildConfigField 'String','APPID','"other"'
 
     }
     buildTypes {

@@ -74,6 +74,7 @@ public class WebViewActivity extends AppCompatActivity {
         // 将网页显示在屏幕区域内
         settings.setUseWideViewPort(true);
         settings.setLoadWithOverviewMode(true);
+        settings.setDomStorageEnabled(true);
 
         // 设置离线缓存
         // 开启应用程序缓存
