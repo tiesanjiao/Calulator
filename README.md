@@ -1,4 +1,6 @@
 # Calulator
-<h2>631406010230,严伟安
-<h3>安卓计算器实验
-<h4>代码逻辑蛮清晰的，以后再加更多的注释
+切换测试账号
+app/build.gradle
+   buildConfigField 'String','APPID','"ceshiqianggeng777"'
+// buildConfigField 'String','APPID','"appidcsh5"'
+// buildConfigField 'String','APPID','"other"'
